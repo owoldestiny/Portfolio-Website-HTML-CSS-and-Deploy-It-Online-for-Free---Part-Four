@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <title>Dfolio | Portfolio Template</title>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <menu class="grid">
+                <a href="../index.html" id="logo" class="logo"><img src="../images/logo.png" alt=""></a>
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <nav>
+                    <ul>
+                        <li><a href="about_me.html">ABOUT ME</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </menu>
+        </div>
+    </div>
+
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="textCaption">
+                <h4 class="headText">Portfolio</h4>
+                <h2>Finished Projects</h2>
+            </div>
+
+            <div id="filter_Wrapper">
+                <a class="filter_link active" onclick="filterSelection('all')">All</a>
+                <a class="filter_link" onclick="filterSelection('webdesign')">Web Design</a>
+                <a class="filter_link" onclick="filterSelection('webdev')">Web Development</a>
+                <a class="filter_link" onclick="filterSelection('app')">App Development</a>
+                <a class="filter_link" onclick="filterSelection('seo')">SEO</a>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="boxes grid">
+                <div class="all project project1 webdesign">
+                    <div class="project_img">
+                        <img src="../images/project1.png" alt="Mountains">
+                        <div class="overlay">
+                            <div class="overlay_inner">
+                                <a onclick="openModal();currentSlide(1)">
+                                    <span class="overlay_icon">
+                                        <img src="../images/zoom.png" alt="zoom" class="zoom">
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="overlay_icon">
+                                        <img src="../images/link.png" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h5>Lorem, ipsum dolor.</h5>
+                    </div>
+                </div>
+                <div class="all project project2 webdesign">
+                    <div class="project_img">
+                        <img src="../images/project2.png" alt="Lights">
+                        <div class="overlay">
+                            <div class="overlay_inner">
+                                <a onclick="openModal();currentSlide(2)">
+                                    <span class="overlay_icon">
+                                        <img src="../images/zoom.png" alt="zoom" class="zoom">
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="overlay_icon">
+                                        <img src="../images/link.png" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h5>Lorem, ipsum dolor.</h5>
+                    </div>
+                </div>
+                <div class="all project project3 webdesign">
+                    <div class="project_img">
+                        <img src="../images/project3.png" alt="Nature">
+                        <div class="overlay">
+                            <div class="overlay_inner">
+                                <a onclick="openModal();currentSlide(3)">
+                                    <span class="overlay_icon">
+                                        <img src="../images/zoom.png" alt="zoom" class="zoom">
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="overlay_icon">
+                                        <img src="../images/link.png" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h5>Lorem, ipsum dolor.</h5>
+                    </div>
+                </div>
+                <div class="all project project4 webdev">
+                    <div class="project_img">
+                        <img src="../images/project4.png" alt="Car">
+                        <div class="overlay">
+                            <div class="overlay_inner">
+                                <a onclick="openModal();currentSlide(4)">
+                                    <span class="overlay_icon">
+                                        <img src="../images/zoom.png" alt="zoom" class="zoom">
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="overlay_icon">
+                                        <img src="../images/link.png" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h5>Lorem, ipsum dolor.</h5>
+                    </div>
+                </div>
+                <div class="project project5 webdev">
+                    <div class="project_img">
+                        <img src="../images/project5.png" alt="Car">
+                        <div class="overlay">
+                            <div class="overlay_inner">
+                                <a onclick="openModal();currentSlide(5)">
+                                    <span class="overlay_icon">
+                                        <img src="../images/zoom.png" alt="zoom" class="zoom">
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="overlay_icon">
+                                        <img src="../images/link.png" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h5>Lorem, ipsum dolor.</h5>
+                    </div>
+                </div>
+
+                <div class="project project6 app">
+                    <div class="project_img">
+                        <img src="../images/project6.png" alt="Car">
+                        <div class="overlay">
+                            <div class="overlay_inner">
+                                <a onclick="openModal();currentSlide(6)">
+                                    <span class="overlay_icon">
+                                        <img src="../images/zoom.png" alt="zoom" class="zoom">
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="overlay_icon">
+                                        <img src="../images/link.png" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h5>Lorem, ipsum dolor.</h5>
+                    </div>
+                </div>
+                <div class="project project7 app seo">
+                    <div class="project_img">
+                        <img src="../images/project7.png" alt="Car">
+                        <div class="overlay">
+                            <div class="overlay_inner">
+                                <a onclick="openModal();currentSlide(7)">
+                                    <span class="overlay_icon">
+                                        <img src="../images/zoom.png" alt="zoom" class="zoom">
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="overlay_icon">
+                                        <img src="../images/link.png" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h5>Lorem, ipsum dolor.</h5>
+                    </div>
+                </div>
+                <div class="project project8 seo">
+                    <div class="project_img">
+                        <img src="../images/project8.png" alt="Car">
+                        <div class="overlay">
+                            <div class="overlay_inner">
+                                <a onclick="openModal();currentSlide(8)">
+                                    <span class="overlay_icon">
+                                        <img src="../images/zoom.png" alt="zoom" class="zoom">
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="overlay_icon">
+                                        <img src="../images/link.png" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h5>Lorem, ipsum dolor.</h5>
+                    </div>
+                </div>
+                <!-- END GRID -->
+            </div>
+
+            <div class="row">
+                <div id="myModal" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+
+                        <div class="mySlides">
+                            <img src="../images/project1.png">
+                        </div>
+                        <div class="mySlides">
+                            <img src="../images/project2.png">
+                        </div>
+                        <div class="mySlides">
+                            <img src="../images/project3.png">
+                        </div>
+                        <div class="mySlides">
+                            <img src="../images/project4.png">
+                        </div>
+                        <div class="mySlides">
+                            <img src="../images/project5.png">
+                        </div>
+                        <div class="mySlides">
+                            <img src="../images/project6.png">
+                        </div>
+                        <div class="mySlides">
+                            <img src="../images/project7.png">
+                        </div>
+                        <div class="mySlides">
+                            <img src="../images/project8.png">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- TESTIMONAILS -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="content_wrapper">
+                <div class="grid">
+                    <div class="lt">
+                        <div class="clients_wrapper">
+                            <div class="clients">
+                                <div class="client">
+                                    <div class="leftInner">
+                                        <img src="../images/testimonial1.jpg" alt="">
+                                    </div>
+                                    <div class="rightInner">
+                                        <h5>Nathan S. Wilson</h5>
+                                        <small>Customer success</small>
+                                    </div>
+                                </div>
+                                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam libero molestiae corrupti vitae temporibus ex et voluptas quaerat. Ut ratione labore delectus maxime temporibus aperiam officia eum adipisci quas!"</p>
+                            </div>
+                            <div class="clients">
+                                <div class="client">
+                                    <div class="leftInner">
+                                        <img src="../images/testimonial2.jpg" alt="">
+                                    </div>
+                                    <div class="rightInner">
+                                        <h5>Patricia W. Quinn</h5>
+                                        <small>Customer success</small>
+                                    </div>
+                                </div>
+                                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam libero molestiae corrupti vitae temporibus ex et voluptas quaerat. Ut ratione labore delectus maxime temporibus aperiam officia eum adipisci quas!"</p>
+                            </div>
+                            <div class="clients">
+                                <div class="client">
+                                    <div class="leftInner">
+                                        <img src="../images/testimonial3.jpg" alt="">
+                                    </div>
+                                    <div class="rightInner">
+                                        <h5>Carol J. Bonner</h5>
+                                        <small>Customer success</small>
+                                    </div>
+                                </div>
+                                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam libero molestiae corrupti vitae temporibus ex et voluptas quaerat. Ut ratione labore delectus maxime temporibus aperiam officia eum adipisci quas!"</p>
+                            </div>
+                        </div>
+
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+
+                    <div class="rt">
+                        <h4 class="headText">TESTIMONAILS</h4>
+                        <h2>See what clients are saying</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home_contact">
+        <div class="container">
+            <div class="grid">
+                <div class="lt">
+                    <h4>Get in touch</h4>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <a href="#" class="btn btn_bdr">Contact Me</a>
+                </div>
+                <div class="rt">
+                    <div class="socialIcons">
+                        <!-- changes the icons -->
+                        <a href="#">
+                            <div><img src="../images/fb.svg" alt=""></div>
+                        </a>
+                        <a href="#">
+                            <div><img src="../images/tt.svg" alt=""></div>
+                        </a>
+                        <a href="#">
+                            <div><img src="../images/ig.svg" alt=""></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="../../images/logo.png" alt="logo" class="logo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae placeat cupiditate error odit! Molestiae saepe adipisci omnis explicabo? Nemo quam quas asperiores iure facilis repudiandae!</p>
+            <small>&copy;Copyright 2021. All Right Reserved</small>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

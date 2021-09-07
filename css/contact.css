@@ -1,0 +1,62 @@
+#contact .grid {
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+
+#contact .grid .rt {
+    background: var(--white);
+    padding: 50px 30px;
+    border-radius: 20px;
+}
+
+#contact .rt input,
+#contact .rt textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    background: var(--bg);
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+    color: #636363;
+}
+
+#contact .rt input:active,
+#contact .rt input:focus,
+#contact .rt textarea:active,
+#contact .rt textarea:focus {
+    border: 1px solid var(--green);
+}
+
+#contact label {
+    color: var(--text);
+}
+
+#contact .rt textarea {
+    height: 100px;
+    resize: none;
+}
+
+::placeholder {
+    color: #aaa;
+    font-size: 16px;
+}
+
+::-moz-placeholder {
+    color: #aaa;
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+    color: #aaa;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+    #contact .grid {
+        display: block;
+    }
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/about_me.css">
+    <title>Dfolio | Portfolio Template</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <menu class="grid">
+                <a href="../index.html" id="logo" class="logo"><img src="../images/logo.png" alt=""></a>
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <nav>
+                    <ul>
+                        <li><a href="about_me.html">ABOUT ME</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </menu>
+
+            <div id="about_showcase" class="grid">
+                <div class="lt">
+                    <h4 class="headText">website designer</h4>
+                    <h1>John Patrick</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, recusandae. Praesentium libero asperiores atque laborum, labore soluta ipsa autem dolorum magni expedita. Asperiores voluptas esse mollitia. Quidem laboriosam suscipit
+                        repellendus inventore</p>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo laborum id provident veniam quis eaque, quasi mollitia harum eligendi ex. ab delectus eos blanditiis!</p>
+                    <div class="btns">
+                        <a href="#" class="btn btn_fill">Contact Me</a>
+                        <a href="#" class="btn btn_bdr">Download CV</a>
+                    </div>
+                </div>
+                <div class="rt">
+                    <img src="../images/about.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="top">
+                <h4 class="headText">Web Designer</h4>
+                <h2>My Activities & Achievements</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo sapiente reprehenderit, tempora nobis tenetur vel mollitia necessitatibus adipisci veniam.</p>
+            </div>
+            <div class="gallery_images">
+                <div class="column">
+                    <div class="img1 img">
+                        <img src="../images/img2.png" alt="">
+                    </div>
+                    <div class="img2 img">
+                        <img src="../images/img1.png" alt="">
+                    </div>
+                    <div class="img3 img">
+                        <img src="../images/img3.png" alt="">
+                    </div>
+                    <div class="img4 img">
+                        <img src="../images/img4.png" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="img1 img">
+                        <img src="../images/img1.png" alt="">
+                    </div>
+                    <div class="img2 img">
+                        <img src="../images/img2.png" alt="">
+                    </div>
+                    <div class="img3 img">
+                        <img src="../images/img1.png" alt="">
+                    </div>
+                    <div class="img4 img">
+                        <img src="../images/img4.png" alt="">
+                    </div>
+                </div>
+                <!-- <div class="column">
+                    <div class="img1 img">
+                        <img src="../images/img1.png" alt="">
+                    </div>
+                    <div class="img2 img">
+                        <img src="../images/img2.png" alt="">
+                    </div>
+                    <div class="img3 img">
+                        <img src="../images/img3.png" alt="">
+                    </div>
+                    <div class="img4 img">
+                        <img src="../images/img4.png" alt="">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+        <div class="container grid">
+            <div class="lt">
+                <div class="block edge_br">
+                    <img src="../images/about_icon1.png" alt="">
+                    <h4>User Research</h4>
+                </div>
+                <div class="block edge_bl">
+                    <img src="../images/about_icon2.png" alt="">
+                    <h4>User Research</h4>
+                </div>
+                <div class="block edge_tr">
+                    <img src="../images/about_icon3.png" alt="">
+                    <h4>User Research</h4>
+                </div>
+                <div class="block edge_tl">
+                    <img src="../images/about_icon4.png" alt="">
+                    <h4>User Research</h4>
+                </div>
+            </div>
+            <div class="rt">
+                <h4 class="headText">about me</h4>
+                <h2>Better design, better experiences</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio error quod eaque nemo, expedita quae! Tempora, blanditiis repellat eveniet cum consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, architecto.</p>
+                <div class="btns">
+                    <a href="#" class="btn btn_fill">Contact Me</a>
+                    <a href="#" class="btn btn_bdr">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="thumbnail">
+        <div class="container">
+            <div class="thumbnail_wrapper">
+                <a href="#lightbox">
+                    <img class="thumbnail_image" src="../images/video.png" alt="">
+                    <!-- thumbnail wrapped in a link -->
+                    <img class="play_btn" src="../images/play-button.png" alt="">
+                </a>
+            </div>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#_" class="lightbox" id="lightbox">
+                <div id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="false" style="display: block;">
+
+                    <span class="close" data-dismiss="modal" aria-hidden="true">&times;</span>
+
+                    <div class="modal-body"><iframe width="870" height="489" src="https://www.youtube.com/embed/SKtIEk-iN-s?" frameborder="0" allow="autoplay" allowfullscreen=""></iframe></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- TESTIMONAILS -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="content_wrapper">
+                <div class="grid">
+                    <div class="lt">
+                        <div class="clients_wrapper">
+                            <div class="clients">
+                                <div class="client">
+                                    <div class="leftInner">
+                                        <img src="../images/testimonial1.jpg" alt="">
+                                    </div>
+                                    <div class="rightInner">
+                                        <h5>Nathan S. Wilson</h5>
+                                        <small>Customer success</small>
+                                    </div>
+                                </div>
+                                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam libero molestiae corrupti vitae temporibus ex et voluptas quaerat. Ut ratione labore delectus maxime temporibus aperiam officia eum adipisci quas!"</p>
+                            </div>
+                            <div class="clients">
+                                <div class="client">
+                                    <div class="leftInner">
+                                        <img src="../images/testimonial2.jpg" alt="">
+                                    </div>
+                                    <div class="rightInner">
+                                        <h5>Patricia W. Quinn</h5>
+                                        <small>Customer success</small>
+                                    </div>
+                                </div>
+                                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam libero molestiae corrupti vitae temporibus ex et voluptas quaerat. Ut ratione labore delectus maxime temporibus aperiam officia eum adipisci quas!"</p>
+                            </div>
+                            <div class="clients">
+                                <div class="client">
+                                    <div class="leftInner">
+                                        <img src="../images/testimonial3.jpg" alt="">
+                                    </div>
+                                    <div class="rightInner">
+                                        <h5>Carol J. Bonner</h5>
+                                        <small>Customer success</small>
+                                    </div>
+                                </div>
+                                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam libero molestiae corrupti vitae temporibus ex et voluptas quaerat. Ut ratione labore delectus maxime temporibus aperiam officia eum adipisci quas!"</p>
+                            </div>
+                        </div>
+
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+
+                    <div class="rt">
+                        <h4 class="headText">TESTIMONAILS</h4>
+                        <h2>See what clients are saying</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home_contact">
+        <div class="container">
+            <div class="grid">
+                <div class="lt">
+                    <h4>Get in touch</h4>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <a href="#" class="btn btn_bdr">Contact Me</a>
+                </div>
+                <div class="socialIcons">
+                    <!-- changes the icons -->
+                    <a href="#">
+                        <div><img src="../images/fb.svg" alt=""></div>
+                    </a>
+                    <a href="#">
+                        <div><img src="../images/tt.svg" alt=""></div>
+                    </a>
+                    <a href="#">
+                        <div><img src="../images/ig.svg" alt=""></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="../images/logo.png" alt="logo" class="logo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae placeat cupiditate error odit! Molestiae saepe adipisci omnis explicabo? Nemo quam quas asperiores iure facilis repudiandae!</p>
+            <small>&copy;Copyright 2021. All Right Reserved</small>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

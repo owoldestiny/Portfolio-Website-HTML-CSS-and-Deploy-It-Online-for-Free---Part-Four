@@ -21,10 +21,10 @@
 - Contact page
 
 ## Support me
-<p align="left"><a href="https://buymeacoffee.com/owoldestiny" target="_blank "><img width="149" src="images/orange-button.png " ></a>
+<p align="left"><a href="https://buymeacoffee.com/owoldestiny" target="_blank "><img width="149" src="images/orange-button.png " ></a></p>
 
 Or
 
-<p align="left"><a href="https://youtu.be/gDXaamxs32w" target="_blank"><img  src="https://img.shields.io/youtube/channel/subscribers/UCFu7l9eORUe3JZEnVzXe2_w?label=Subscribe&style=for-the-badge " ></a>
+<p align="left"><a href="https://youtu.be/gDXaamxs32w" target="_blank"><img  src="https://img.shields.io/youtube/channel/subscribers/UCFu7l9eORUe3JZEnVzXe2_w?label=Subscribe&style=for-the-badge " ></a></p>
   
   

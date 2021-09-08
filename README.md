@@ -21,7 +21,7 @@
 - Contact page
 
 ## Support me
-<p align="left"><a href="https://github.com/owoldestiny/Portfolio-Website-HTML-CSS-and-Deploy-It-Online-for-Free---Part-Four/blob/b2cd3da4494b923c49910cf4ccf1d2e65fd36a8d/images/buymeacoffee.png" target="_blank"><img width="149" src="images/buymeacoffee.png " ></a>
+<p align="left"><a href="https://buymeacoffee.com/owoldestiny" target="_blank "><img width="149" src="images/buymeacoffee.png " ></a>
 
 Or
 

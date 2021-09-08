@@ -21,7 +21,7 @@
 - Contact page
 
 ## Support me
-<p align="left"><a href="https://buymeacoffee.com/owoldestiny" target="_blank "><img width="149" src="images/buymeacoffee.png " ></a>
+<p align="left"><a href="https://buymeacoffee.com/owoldestiny" target="_blank "><img width="149" src="https://media.giphy.com/media/513lZvPf6khjIQFibF/giphy.gif " ></a>
 
 Or
 
